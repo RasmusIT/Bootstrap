@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVIGATSIOONIMENÜÜ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Avaleht</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Teenused</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ESILE TÕSTETUD POSTITUS -->
+<header class="bg-dark text-white text-center p-5">
+    <div class="container">
+        <h1>Featured Blog Post</h1>
+        <p class="lead">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
+        <a href="#" class="btn btn-primary">Continue reading...</a>
+    </div>
+</header>
+
+<!-- SEKTSIOON PILDIGA -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/500x300" class="img-fluid rounded" alt="Placeholder">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2>pealkiri</h2>
+                <p>Kirjeldus</p>
+                <a href="#" class="btn btn-outline-primary">Loe rohkem</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- VIDEO SEKTSIOON -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Sektsioon videoga</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FUNKTSIOONID -->
+<div class="container my-5">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <h3>tiitel 1</h3>
+            <p>Kirjeldus</p>
+        </div>
+        <div class="col-md-4">
+            <h3>tiitel 2</h3>
+            <p>Kirjeldus</p>
+        </div>
+        <div class="col-md-4">
+            <h3>tiitel 3</h3>
+            <p>kirjeldus</p>
+        </div>
+    </div>
+</div>
+
+<!-- JALUS -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>© 2025 Teie Ettevõte | Kõik õigused kaitstud.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
