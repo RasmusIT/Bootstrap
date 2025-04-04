@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuradi kontrolltoo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        .navbar {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #212529 !important;
+        }
+        .nav-link {
+            color: #6c757d !important;
+        }
+        .main-header {
+            padding: 4rem 0;
+            color: #f8f9fa;
+            background-color: #333;
+        }
+        .featured-post {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 0.25rem;
+        }
+        .world-tag {
+            color: #007bff;
+            font-weight: 600;
+        }
+        .design-tag {
+            color: #28a745;
+            font-weight: 600;
+        }
+        .post-card {
+            margin-bottom: 2rem;
+            border: none;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        }
+        .blueprints-section {
+            background-color: #e9ecef;
+            padding: 3rem 0;
+            margin: 2rem 0;
+        }
+        .profile-card {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem;
+            border-radius: 0.25rem;
+            height: 100%;
+        }
+        .location-tag {
+            color: #17a2b8;
+            font-weight: 500;
+        }
+        .video-section {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 0.25rem;
+            height: 100%;
+        }
+        .video-section h5 {
+            color: #dc3545;
+        }
+        .feature-box {
+            padding: 1.5rem;
+            text-align: center;
+            background-color: white;
+            border-radius: 0.25rem;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            height: 100%;
+        }
+        .feature-box h4 {
+            color: #6f42c1;
+        }
+        .cta-section {
+            background-color: white;
+            color: #333;
+            padding: 3rem 0;
+            margin-top: 2rem;
+        }
+        .cta-section .btn-light {
+            color: black;
+            font-weight: 600;
+        }
+        footer {
+            background-color: #007bff;
+            color: #333;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        .continue-reading {
+            color: #f8f9fa;
+            font-weight: 600;
+        }
+        .date-text {
+            color: #6c757d;
+        }
+        .price-text {
+            color: #ffc107;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .image-section {
+            background-color: #343a40 ;
+            color: white;
+            text-align: center;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <a class="navbar-brand">Logo</a>
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Team</a>
+          <a class="nav-link" href="#">Contact</a>
+        </form>
+      </nav>
+    
+
+
+    <header class="container main-header">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>Title of a longer featured blog post</h1>
+                <p class="lead">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
+                <a href="#" class="continue-reading">Continue reading...</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="featured-post">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="world-tag">World</span>
+                        <span class="date-text">Nov 12</span>
+                    </div>
+                    <h3>Featured post</h3>
+                    <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-link">Continue reading<i></i></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="featured-post">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="design-tag">Design</span>
+                        <span class="date-text">Nov 11</span>
+                    </div>
+                    <h3>Post title</h3>
+                    <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-link">Continue reading<i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="blueprints-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Blueprints</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus. Vivamus sagittis lacus vel augue laoreet, rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus. Vivamus sagittis lacus vel augue laoreet, rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <img src="..." class="rounded mx-auto d-block" alt="...">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Explore my destinations</h2>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor</p>
+                <p class="text-muted">Duis mollis</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="profile-card">
+                    <div class="d-flex justify-content-between">
+                        <span class="location-tag">John doe ---------</span>
+                    </div>
+                    <hr style="border-color: #495057;">
+                    <h3>I'm Experienced UI Designer & Digital Nomad</h3>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="image-section">
+                            <h5>Barcelona</h5>
+                            <h6 class="image-section">Spain</h6>
+                            <p>$2,240</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="image-section">
+                            <h5>New York</h5>
+                            <h6 class="image-section">United States</h6>
+                            <p>$4,250</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blueprints-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Blueprints</h2>
+            <p class="text-center">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus, Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus, Fusce dapibus, tellus ac cursus commode, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus</p>
+            
+            <div class="row mt-5">
+                <div class="col-md-3 mb-4">
+                    <div class="card post-card">
+                        <div class="card-body">
+                            <img src="..." class="rounded float-left" alt="...">
+                            <h5 class="card-title text-primary">Blueprints</h5>
+                            <p class="card-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card post-card">
+                        <div class="card-body">
+                            <img src="..." class="rounded float-left" alt="...">
+                            <h5 class="card-title text-primary">Blueprints</h5>
+                            <p class="card-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card post-card">
+                        <div class="card-body">
+                            <img src="..." class="rounded float-left" alt="...">
+                            <h5 class="card-title text-primary">Blueprints</h5>
+                            <p class="card-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card post-card">
+                        <div class="card-body">
+                            <img src="..." class="rounded float-left" alt="...">
+                            <h5 class="card-title text-primary">Blueprints</h5>
+                            <p class="card-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="feature-box">
+                    <h4>Feature title</h4>
+                    <img class="rounded-circle" alt="img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+                    <a href="#" class="btn btn-link">Learn More <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-box">
+                    <h4>Feature title</h4>
+                    <img class="rounded-circle" alt="img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+                    <a href="#" class="btn btn-link">Learn More <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-box">
+                    <h4>Feature title</h4>
+                    <img class="rounded-circle" alt="img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+                    <a href="#" class="btn btn-link">Learn More <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Nice heading</h2>
+                <p class="text-center">id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+            <div class="col-md-6">
+                <h2>Nice heading</h2>
+                <p class="text-center">id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <a href="#" class="btn btn-primary">Download</a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <h3>Nice heading goes here</h3>
+                <p class="text-muted">Subtitle comes here.</p>
+                <div class="text-center">
+                </div>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    <a href="#" class="btn btn-primary ml-2">Buy <i class="fas fa-chevron-right"></i></a>
+                    <img src="..." class="rounded mx-auto d-block" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 class="mb-3">Ready to get started?</h2>
+            <p class="mb-4">Call to action text This is some text and button within a call-to-action text block.</p>
+            <a href="#" class="btn btn-light btn-lg">Call To Action</a>
+        </div>
+    </section>
+
+
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2017 | Disclaimer | Contact</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
